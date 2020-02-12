@@ -1,0 +1,10 @@
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\obj\Debug\Courework_Matrix.csprojResolveAssemblyReference.cache
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\obj\Debug\Courework_Matrix.Properties.Resources.resources
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\obj\Debug\Courework_Matrix.csproj.GenerateResource.Cache
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\obj\Debug\Courework_Matrix.csproj.CoreCompileInputs.cache
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\bin\Debug\Courework_Matrix.exe.config
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\bin\Debug\Courework_Matrix.exe
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\bin\Debug\Courework_Matrix.pdb
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\obj\Debug\Courework_Matrix.exe
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\obj\Debug\Courework_Matrix.pdb
+C:\DATA\Projects\Курсачи\Courework_Matrix\Courework_Matrix\obj\Debug\Courework_Matrix.Form1.resources
