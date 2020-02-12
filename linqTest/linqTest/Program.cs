@@ -68,7 +68,10 @@ namespace linqTest
 				//TODO
 				Console.WriteLine("LinqBegin29");
 
-				
+				///пппппп
+				/// пппп
+				/// пппа
+				/// 
 
 				Console.ReadKey();
 				Console.WriteLine();
