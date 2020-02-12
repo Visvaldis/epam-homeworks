@@ -1,0 +1,7 @@
+D:\DATA\Projects\CSharp\linqTest\linqTest\bin\Debug\linqTest.exe.config
+D:\DATA\Projects\CSharp\linqTest\linqTest\bin\Debug\linqTest.exe
+D:\DATA\Projects\CSharp\linqTest\linqTest\bin\Debug\linqTest.pdb
+D:\DATA\Projects\CSharp\linqTest\linqTest\obj\Debug\linqTest.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\linqTest\linqTest\obj\Debug\linqTest.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\linqTest\linqTest\obj\Debug\linqTest.exe
+D:\DATA\Projects\CSharp\linqTest\linqTest\obj\Debug\linqTest.pdb

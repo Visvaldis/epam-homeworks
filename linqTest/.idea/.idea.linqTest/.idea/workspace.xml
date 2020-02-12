@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectId" id="1XgD4FNms0iFI45NYQOKYWUNjYx" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RunManager">
+    <configuration name="linqTest" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/linqTest/linqTest.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="745" y="299" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1581458823065">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="745" y="299" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/70.27.1850.1053@70.27.1850.1053" timestamp="1581458823065" />
+    <state x="639" y="199" width="1022" height="737" key="SettingsEditor" timestamp="1581458734111">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="639" y="199" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1581458734111" />
+  </component>
+</project>
