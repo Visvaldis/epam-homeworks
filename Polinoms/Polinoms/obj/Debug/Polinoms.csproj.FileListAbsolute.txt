@@ -1,0 +1,7 @@
+D:\DATA\Projects\CSharp\Polinoms\Polinoms\bin\Debug\Polinoms.exe.config
+D:\DATA\Projects\CSharp\Polinoms\Polinoms\bin\Debug\Polinoms.exe
+D:\DATA\Projects\CSharp\Polinoms\Polinoms\bin\Debug\Polinoms.pdb
+D:\DATA\Projects\CSharp\Polinoms\Polinoms\obj\Debug\Polinoms.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\Polinoms\Polinoms\obj\Debug\Polinoms.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\Polinoms\Polinoms\obj\Debug\Polinoms.exe
+D:\DATA\Projects\CSharp\Polinoms\Polinoms\obj\Debug\Polinoms.pdb

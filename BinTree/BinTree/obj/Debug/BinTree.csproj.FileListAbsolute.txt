@@ -1,0 +1,10 @@
+D:\DATA\Projects\CSharp\BinTree\BinTree\bin\Debug\BinTree.exe.config
+D:\DATA\Projects\CSharp\BinTree\BinTree\bin\Debug\BinTree.exe
+D:\DATA\Projects\CSharp\BinTree\BinTree\bin\Debug\BinTree.pdb
+D:\DATA\Projects\CSharp\BinTree\BinTree\obj\Debug\BinTree.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\BinTree\BinTree\obj\Debug\BinTree.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\BinTree\BinTree\obj\Debug\BinTree.exe
+D:\DATA\Projects\CSharp\BinTree\BinTree\obj\Debug\BinTree.pdb
+D:\DATA\Projects\CSharp\BinTree\BinTree\bin\Debug\BinaryTree.dll
+D:\DATA\Projects\CSharp\BinTree\BinTree\bin\Debug\BinaryTree.pdb
+D:\DATA\Projects\CSharp\BinTree\BinTree\obj\Debug\BinTree.csproj.CopyComplete
