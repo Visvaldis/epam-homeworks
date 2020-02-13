@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -68,11 +68,15 @@ namespace linqTest
 				//TODO
 				Console.WriteLine("LinqBegin29");
 
-				///пппппп
-				/// пппп
-				/// пппа
-				/// 
-
+				int d = 6, k = 8;
+				int[] a = { 1, 3, 5, 6, 3, 6, 7, 8, 45, 3, 7, 6 };
+				
+				var n = a.TakeWhile(i => i < d).Concat(a.Skip(k)).Distinct().OrderBy(x => x);
+				foreach (int item in n)
+				{
+					Console.Write(item + "  ");
+				}
+				
 				Console.ReadKey();
 				Console.WriteLine();
 			}
@@ -85,8 +89,12 @@ namespace linqTest
 				//TODO
 				Console.WriteLine("LinqBegin36");
 
-
-
+				List<string> str = new List<string> { "q werty1", "aqwertyc", "dcqwe2", "c", "fgrftgd4" };
+				var chars = str.Select(x => x.Length % 2 == 1 ? x.First() : x.Last()).OrderByDescending(x => x);
+				foreach (char item in chars)
+				{
+					Console.Write(item + "  ");
+				}
 				Console.ReadKey();
 				Console.WriteLine();
 			}
@@ -97,7 +105,14 @@ namespace linqTest
 				//TODO
 				Console.WriteLine("LinqBegin44");
 
-				
+				int[] a = { 1, 3, 5, 6, 3, 6, 7, 8, 45, 3, 7, 6 };
+				int[] b = { 10, 13, 4, 7, 27, 8, 11, 12, 2, 4, 6, 9 };
+				int k1 = 7, k2 = 10;
+				var n = a.Where(x => x > k1).Concat(b.Where(x => x < k2)).OrderBy(x=> x);
+				foreach (int item in n)
+				{
+					Console.Write(item + "  ");
+				}
 				Console.ReadKey();
 				Console.WriteLine();
 			}
@@ -112,6 +127,17 @@ namespace linqTest
 				//TODO
 				Console.WriteLine("LinqBegin48");
 
+				List<string> aList = new List<string> {"erty1", "aqwertyc", "dcqwew2", "c", "fgrweftgd4"};
+				List<string> bList = new List<string> {"qwerty1", "aqwer", "dcqwe2", "c", "fgrfetgd4"};
+
+				var str = aList.Join(bList, x => x.Length, y => y.Length, (x, y) => $"{x} : {y}")
+					.OrderBy(x => x.Substring(0, x.IndexOf(' ')))
+					.ThenByDescending(x => x.Substring(x.LastIndexOf(' '), x.Length - x.LastIndexOf(' ')));
+
+				foreach (var item in str)
+				{
+					Console.WriteLine(item);
+				}
 
 				Console.ReadKey();
 				Console.WriteLine();
@@ -125,11 +151,38 @@ namespace linqTest
 				//а для совпадающих чисел — по возрастанию номера года.
 				//TODO
 				Console.WriteLine("LinqObj17");
+				
+				var abits = new List<Abit>
+				{
+					new Abit{Surname = "Ivanov",   Year =   2015, SchoolNumber = 18},
+					new Abit{Surname = "Petrov",   Year =   2014, SchoolNumber = 20},
+					new Abit{Surname = "Pavlov",   Year =   2015, SchoolNumber = 18 },
+					new Abit{Surname =  "Kudelin", Year =   2017, SchoolNumber = 2 },
+					new Abit{Surname =  "Ignatov", Year =   2016, SchoolNumber = 15},
+					new Abit{Surname = "Kozin",    Year =   2016, SchoolNumber = 8 },
+					new Abit{Surname = "Sobko",    Year =   2018, SchoolNumber = 15 },
+					new Abit{Surname = "Borisov",  Year =   2015, SchoolNumber = 4 },
+					new Abit{Surname = "Mul",      Year =   2017, SchoolNumber = 20}
+				};
 
-
+				var strs = abits.GroupBy(x => x.Year)
+					.Select(x => new {Count = x.Distinct().Count(), Year = x.Key})
+					.OrderBy(x => x.Year);
+				
+				foreach (var item in strs)
+				{
+					Console.WriteLine($"{item.Count} : {item.Year}");
+				}
 				Console.ReadKey();
 				Console.WriteLine();
 			}
 		}
+	}
+
+	class Abit
+	{
+		public string Surname;
+		public int SchoolNumber;
+		public int Year;
 	}
 }
