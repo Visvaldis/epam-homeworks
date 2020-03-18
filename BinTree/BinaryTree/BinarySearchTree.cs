@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("Test_BinarySearchTree")]
 namespace BinaryTree
 {
 
@@ -33,6 +35,23 @@ namespace BinaryTree
 		public IEnumerable<T> PreOrder => this.ToList(Traversals.PreOrderTraversal);
 		public IEnumerable<T> PostOrder => this.ToList(Traversals.PostOrderTraversal);
 
+
+		public bool isCorrect()
+			=> isCorrect(root);
+
+		public bool isCorrect(Node<T> root)
+		{ 
+			if(root != null)
+			{
+				if (root.Left != null && root.GetValue().CompareTo(root.Left.GetValue()) < 0)
+					return false;
+				if (root.Right != null && root.GetValue().CompareTo(root.Right.GetValue()) > 0)
+					return false;
+				return isCorrect(root.Left) && isCorrect(root.Right);
+			}
+			return true;
+
+		}
 		public void Add(T item)
 		{
 			if (item == null) throw new ArgumentNullException();
@@ -113,46 +132,62 @@ namespace BinaryTree
 			if (item == null) throw new ArgumentNullException();
 			if (root == null) return false;
 
-			if (root.GetValue().CompareTo(item) == 0)
-			{
-				if (root.Left == null && root.Right == null)
-				{
-					root = null;
-				}
-				else if (root.Left != null && root.Right == null)
-				{
-					root = root.Left;
-				}
-				else if (root.Left == null && root.Right != null)
-				{
-					root = root.Right;
-				}
-				else if (root.Right.Left == null)
-				{
-					root = root.Right;
-				}
-				else
-				{
-					Node<T> leftmost = root.Right;
-					Node<T> leftmost_parent = root;
-					while (leftmost.Left != null)
-					{
-						leftmost_parent = leftmost;
-						leftmost = leftmost.Left;
-					}
-					leftmost_parent.Left = leftmost.Right;
-					leftmost.Left = root.Left;
-					leftmost.Right = root.Right;
-					root = leftmost;
-				}
+			Node<T> nodeToDelete = FindNode(root, item);
+			if (nodeToDelete == null) return false;
 
-				nodesCount--;
-				return true;
+			Node<T> nodeToReplace = FindNodeToReplace(nodeToDelete);
+
+			nodeToDelete = nodeToReplace;
+			nodesCount--;
+			return true;
+
+		}
+
+		private Node<T> FindNodeToReplace(Node<T> nodeToDelete)
+		{
+			if (nodeToDelete.Left == null && nodeToDelete.Right == null)
+			{
+				return null;
 			}
-			else if (root.GetValue().CompareTo(item) > 0)
-				return Remove(ref root.Left, item);
+			else if (nodeToDelete.Left != null && nodeToDelete.Right == null)
+			{
+				return nodeToDelete.Left;
+			}
+			else if (nodeToDelete.Left == null && nodeToDelete.Right != null)
+			{
+				return nodeToDelete.Right;
+			}
+			else if (nodeToDelete.Right.Left == null)
+			{
+				return nodeToDelete.Right;
+			}
 			else
-				return Remove(ref root.Right, item);
+			{
+				Node<T> leftmost = nodeToDelete.Right;
+				Node<T> leftmost_parent = nodeToDelete;
+				while (leftmost.Left != null)
+				{
+					leftmost_parent = leftmost;
+					leftmost = leftmost.Left;
+				}
+				leftmost_parent.Left = leftmost.Right;
+				leftmost.Left = nodeToDelete.Left;
+				leftmost.Right = nodeToDelete.Right;
+				return leftmost;
+			}
+		}
+
+		private Node<T> FindNode(Node<T> root, T item)
+		{
+			if (item == null) throw new ArgumentNullException();
+			if (root == null) return null;
+
+			if (root.GetValue().CompareTo(item) == 0)
+				return root;
+			else if (root.GetValue().CompareTo(item) > 0)
+				return FindNode(root.Left, item);
+			else
+				return FindNode(root.Right, item);
 		}
 
 
@@ -168,7 +203,7 @@ namespace BinaryTree
 					InOrderTraversal(result.Add);
 					break;
 				case Traversals.PostOrderTraversal:
-					InOrderTraversal(result.Add);
+					PostOrderTraversal(result.Add);
 					break;
 			}
 
@@ -232,7 +267,7 @@ namespace BinaryTree
 			{
 				PostOrderTraversal(action, node.Left);
 				PostOrderTraversal(action, node.Right);
-
+				action(node.GetValue());
 			}
 		}
 	}

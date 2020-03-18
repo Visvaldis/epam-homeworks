@@ -4,3 +4,9 @@ D:\DATA\Projects\CSharp\BinTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompi
 D:\DATA\Projects\CSharp\BinTree\BinaryTree\obj\Debug\BinaryTree.dll
 D:\DATA\Projects\CSharp\BinTree\BinaryTree\obj\Debug\BinaryTree.pdb
 D:\DATA\Projects\CSharp\BinTree\BinaryTree\obj\Debug\BinaryTree.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\BinaryTree\bin\Debug\BinaryTree.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\BinaryTree\bin\Debug\BinaryTree.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\BinaryTree\obj\Debug\BinaryTree.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\BinaryTree\obj\Debug\BinaryTree.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\BinaryTree\obj\Debug\BinaryTree.pdb

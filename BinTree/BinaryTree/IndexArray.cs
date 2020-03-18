@@ -104,13 +104,12 @@ namespace BinaryTree
 			if (head == null) return;
 			else
 			{
-				IndexArrayElement<T> temp = head;
-				while (temp.Next != null)
+				while (head != null)
 				{
-					temp = temp.Next;
+					head = head.Next;
+					Count--;
 				}
-				temp = null;
-				Count--;
+
 			}
 		}
 
@@ -155,6 +154,7 @@ namespace BinaryTree
 			{
 				if (temp.Value.Equals(item))
 					return index;
+				temp = temp.Next;
 				index++;
 			}
 			return -1;
@@ -171,6 +171,7 @@ namespace BinaryTree
 				IndexArrayElement<T> Element = new IndexArrayElement<T>(head.Value);
 				Element.Next = head.Next;
 				head.Value = item;
+				Count++;
 			}
 			IndexArrayElement<T> temp = head;
 			while (i != index)
@@ -182,6 +183,7 @@ namespace BinaryTree
 			IndexArrayElement<T> newElement = new IndexArrayElement<T>(item);
 			newElement.Next = temp.Next;
 			temp.Next = newElement;
+			Count++;
 		}
 
 		public bool Remove(T item)
@@ -194,11 +196,11 @@ namespace BinaryTree
 				Count--;
 				return true;
 			}
-			while (!temp.Next.Value.Equals(item) && temp != null)
+			while (temp.Next != null && !temp.Next.Value.Equals(item))
 			{
 				temp = temp.Next;
 			}
-			if (temp != null)
+			if (temp.Next != null)
 			{
 				temp.Next = temp.Next.Next;
 				Count--;

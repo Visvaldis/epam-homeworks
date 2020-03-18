@@ -1,0 +1,17 @@
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\obj\Debug\netcoreapp2.1\Tests_BinaryTree.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\obj\Debug\netcoreapp2.1\Tests_BinaryTree.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\obj\Debug\netcoreapp2.1\Tests_BinaryTree.AssemblyInfoInputs.cache
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\obj\Debug\netcoreapp2.1\Tests_BinaryTree.AssemblyInfo.cs
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\Tests_BinaryTree.deps.json
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\Tests_BinaryTree.runtimeconfig.json
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\Tests_BinaryTree.runtimeconfig.dev.json
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\Tests_BinaryTree.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\Tests_BinaryTree.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\BinaryTree.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\bin\Debug\netcoreapp2.1\BinaryTree.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\obj\Debug\netcoreapp2.1\Tests_BinaryTree.csproj.CopyComplete
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\obj\Debug\netcoreapp2.1\Tests_BinaryTree.dll
+D:\DATA\Projects\CSharp\epam-homeworks\BinTree\Tests_BinaryTree\obj\Debug\netcoreapp2.1\Tests_BinaryTree.pdb
