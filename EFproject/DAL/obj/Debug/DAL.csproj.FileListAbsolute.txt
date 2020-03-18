@@ -1,0 +1,12 @@
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\bin\Debug\DAL.dll.config
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\bin\Debug\DAL.dll
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\bin\Debug\DAL.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\bin\Debug\EntityFramework.dll
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\bin\Debug\EntityFramework.xml
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\obj\Debug\DAL.dll
+D:\DATA\Projects\CSharp\epam-homeworks\EFproject\DAL\obj\Debug\DAL.pdb
