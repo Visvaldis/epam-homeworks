@@ -1,0 +1,7 @@
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\bin\Debug\ADOproject.exe.config
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\bin\Debug\ADOproject.exe
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\bin\Debug\ADOproject.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.exe
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.pdb
