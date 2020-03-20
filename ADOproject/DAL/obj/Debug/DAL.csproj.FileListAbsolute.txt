@@ -1,0 +1,6 @@
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\DAL\bin\Debug\DAL.dll
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\DAL\bin\Debug\DAL.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\DAL\obj\Debug\DAL.dll
+D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\DAL\obj\Debug\DAL.pdb

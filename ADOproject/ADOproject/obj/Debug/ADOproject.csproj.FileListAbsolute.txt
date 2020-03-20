@@ -5,3 +5,6 @@ D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOprojec
 D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.csproj.CoreCompileInputs.cache
 D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.exe
 D:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.pdb
+d:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\bin\Debug\DAL.dll
+d:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\bin\Debug\DAL.pdb
+d:\DATA\Projects\CSharp\epam-homeworks\ADOproject\ADOproject\obj\Debug\ADOproject.csproj.CopyComplete
