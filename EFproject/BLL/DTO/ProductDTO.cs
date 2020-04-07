@@ -11,11 +11,7 @@ namespace BLL.DTO
 		public int Id { get; set; }
 		public string Name { get; set; }
 		public double Price { get; set; }
-/*
-		public int CategoryID { get; set; }
-		public int SupplierID { get; set; }
-*/
-		
+	
 		 	public CategoryDTO Category { get; set; }
 		public SupplierDTO Supplier { get; set; }
 		

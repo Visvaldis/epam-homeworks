@@ -50,7 +50,6 @@
     <Compile Include="DTO\CategoryDTO.cs" />
     <Compile Include="DTO\ProductDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
-    <Compile Include="Infrastructure\Mapper.cs" />
     <Compile Include="Infrastructure\ServiceModule.cs" />
     <Compile Include="Infrastructure\ValidationExeption.cs" />
     <Compile Include="Interfaces\IProductService.cs" />
