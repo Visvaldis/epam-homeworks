@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-	class OrderService : IOrderService
+	public class OrderService : IOrderService
 	{
 		IUnitOfWork Database { get; set; }
 		IMapper Mapper { get; set; }
@@ -91,6 +91,14 @@ namespace BLL.Services
 		public void Update(OrderDTO item)
 		{
 			Database.Orders.Update(Mapper.Map<OrderDTO, Order>(item));
+			Database.Save();
+		}
+
+		public void AddProductToOrder(int orderId, int productId)
+		{
+			var prod = Database.Products.Get(productId);
+			var order = Database.Orders.Get(orderId);
+			order.Products.ToList().Add(prod);
 			Database.Save();
 		}
 	}

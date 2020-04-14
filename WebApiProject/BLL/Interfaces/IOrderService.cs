@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Interfaces
 {
-	interface IOrderService : IService<OrderDTO>
+	public interface IOrderService : IService<OrderDTO>
 	{
 		IEnumerable<ProductDTO> GetAllProductsByOrder(int id);
 		void AddProductToOrder(int orderId, int productId);

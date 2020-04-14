@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Infrastructure
 {
-	class ValidationException : Exception
+	public class ValidationException : Exception
 	{
 		public ValidationException()
 		{

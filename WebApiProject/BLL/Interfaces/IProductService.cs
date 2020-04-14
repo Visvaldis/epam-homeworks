@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Interfaces
 {
-	interface IProductService :IService<ProductDTO>
+	public interface IProductService :IService<ProductDTO>
 	{
 
 	}

@@ -1,0 +1,17 @@
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\BLL.dll
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\BLL.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\AutoMapper.dll
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\DAL.dll
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\Ninject.dll
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\EntityFramework.dll
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\DAL.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\DAL.dll.config
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\AutoMapper.pdb
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\AutoMapper.xml
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\Ninject.xml
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\bin\Debug\EntityFramework.xml
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\obj\Debug\BLL.dll
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\BLL\obj\Debug\BLL.pdb

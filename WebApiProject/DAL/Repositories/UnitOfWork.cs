@@ -37,14 +37,29 @@ namespace DAL.Repositories
 				return orderRepository;
 			}
 		}
+		private bool disposed = false;
+
+		public virtual void Dispose(bool disposing)
+		{
+			if (!this.disposed)
+			{
+				if (disposing)
+				{
+					db.Dispose();
+				}
+				this.disposed = true;
+			}
+		}
+
 		public void Dispose()
 		{
-			throw new NotImplementedException();
+			Dispose(true);
+			GC.SuppressFinalize(this);
 		}
 
 		public void Save()
 		{
-			throw new NotImplementedException();
+			db.SaveChanges();
 		}
 	}
 }
