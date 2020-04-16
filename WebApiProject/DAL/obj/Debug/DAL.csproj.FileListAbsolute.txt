@@ -6,10 +6,10 @@ D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\bin\Debug\EntityFramewo
 D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\bin\Debug\EntityFramework.xml
 D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.Migrations.InitialCreate.resources
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.Migrations.ManyToMany.resources
+D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.dll
 D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.pdb
-D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.Migrations.InitialCreate.resources
-D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
-D:\DATA\Projects\CSharp\epam-homeworks\WebApiProject\DAL\obj\Debug\DAL.Migrations.ManyToMany.resources

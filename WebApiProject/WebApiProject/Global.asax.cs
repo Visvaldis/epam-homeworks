@@ -5,6 +5,7 @@ using Ninject.Web.WebApi;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
@@ -25,9 +26,8 @@ namespace WebApiProject
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-
-			BundleConfig.RegisterBundles(BundleTable.Bundles);
-
+		
+			
 			//внедрение зависимостей
 			NinjectModule orderModule = new OrderModule();
 			NinjectModule productModule = new ProductModule();
@@ -35,6 +35,8 @@ namespace WebApiProject
 			var kernel = new StandardKernel(orderModule, productModule, serviceModule);
 
 			GlobalConfiguration.Configuration.DependencyResolver = new NinjectResolver(kernel);
+			
+
 
 		}
 	}

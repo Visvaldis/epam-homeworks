@@ -30,7 +30,7 @@ namespace BLL.Services
 			})
 			.CreateMapper();
 		}
-		public void Add(OrderDTO item)
+		public int Add(OrderDTO item)
 		{
 			if (item == null)
 				throw new ArgumentNullException("Current order is null. Try again.");
@@ -38,9 +38,11 @@ namespace BLL.Services
 			var tag = Database.Orders.Find(x => x.Name.ToLower() == item.Name.ToLower());
 			if (tag.ToList().Count == 0)
 			{
-				Database.Orders.Create(Mapper.Map<OrderDTO, Order>(item));
+				var id = Database.Orders.Create(Mapper.Map<OrderDTO, Order>(item));
 				Database.Save();
+				return id;
 			}
+			return 0;
 		}
 
 		public void Delete(int id)
@@ -65,7 +67,8 @@ namespace BLL.Services
 
 		public IEnumerable<OrderDTO> GetAll()
 		{
-			return Mapper.Map<IEnumerable<Order>, List<OrderDTO>>(Database.Orders.GetAll());
+			var orders = Database.Orders.GetAll().ToList();
+			return Mapper.Map<IEnumerable<Order>, List<OrderDTO>>(orders);
 		}
 
 		public IEnumerable<ProductDTO> GetAllProductsByOrder(int id)
@@ -98,7 +101,7 @@ namespace BLL.Services
 		{
 			var prod = Database.Products.Get(productId);
 			var order = Database.Orders.Get(orderId);
-			order.Products.ToList().Add(prod);
+			order.Products.Add(prod);
 			Database.Save();
 		}
 	}

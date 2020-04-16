@@ -20,9 +20,10 @@ namespace DAL.Repositories
 			this.db = context;
 		}
 
-		public void Create(Order item)
+		public int Create(Order item)
 		{
-			db.Orders.Add(item);
+			var order = db.Orders.Add(item);
+			return order.Id;
 		}
 
 		public void Delete(int id)

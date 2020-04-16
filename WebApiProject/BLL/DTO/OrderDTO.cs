@@ -10,7 +10,7 @@ namespace BLL.DTO
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
-		public IEnumerable<ProductDTO> Products  { get; set; }
+		public ICollection<ProductDTO> Products  { get; set; }
 
 		public OrderDTO()
 		{

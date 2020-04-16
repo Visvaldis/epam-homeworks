@@ -28,7 +28,7 @@ namespace BLL.Services
 			.CreateMapper();
 		}
 
-		public void Add(ProductDTO item)
+		public int Add(ProductDTO item)
 		{
 			if (item == null)
 				throw new ArgumentNullException("Current product is null. Try again.");
@@ -36,9 +36,11 @@ namespace BLL.Services
 			var product = Database.Orders.Find(x => x.Name.ToLower() == item.Name.ToLower());
 			if (product.ToList().Count == 0)
 			{
-				Database.Products.Create(Mapper.Map<ProductDTO, Product>(item));
+				var id = Database.Products.Create(Mapper.Map<ProductDTO, Product>(item));
 				Database.Save();
+				return id;
 			}
+			return 0;
 		}
 
 		public void Delete(int id)

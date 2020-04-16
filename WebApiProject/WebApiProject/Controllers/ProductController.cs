@@ -22,10 +22,10 @@ namespace WebApiProject.Controllers
 
 		[HttpGet]
 		public IHttpActionResult Get(int id)
-		{
-			var prod = productService.Get(id);
+		{	
 			try
 			{
+				var prod = productService.Get(id);
 				return Ok(prod);
 			}
 			catch (ValidationException ex)
@@ -43,12 +43,16 @@ namespace WebApiProject.Controllers
 		[HttpPost]
 		public IHttpActionResult Add([FromBody] ProductDTO prod)
 		{
+			if (!ModelState.IsValid) return BadRequest();
+
 			productService.Add(prod);
 			return Ok();
 		}
 		[HttpPut]
 		public IHttpActionResult Update([FromBody] ProductDTO prod)
 		{
+			if (!ModelState.IsValid) return BadRequest();
+
 			productService.Update(prod);
 			return Ok();
 		}

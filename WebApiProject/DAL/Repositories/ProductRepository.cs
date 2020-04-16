@@ -18,9 +18,10 @@ namespace DAL.Repositories
 		{
 			this.db = context;
 		}
-		public void Create(Product item)
+		public int Create(Product item)
 		{
-			db.Products.Add(item);
+			var prod = db.Products.Add(item);
+			return prod.Id;
 		}
 
 		public void Delete(int id)
